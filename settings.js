@@ -21,7 +21,7 @@ MODE: process.env.MODE || "public",
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MALVIN XD 😆*",
@@ -53,7 +53,7 @@ MODE: process.env.MODE || "public",
         STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🩵",
@@ -74,9 +74,9 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
-                ANTI_BAD: process.env.ANTI_BAD || "false",
+                ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
@@ -100,7 +100,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "false",
+   READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "263780166288",
